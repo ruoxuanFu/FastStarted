@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_dashboard_active_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_dashboard_inactive_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_home_inactive_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_notifications_active_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_notifications_inactive_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_person_active_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_person_black_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/ic_person_inactive_24dp.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/tab_dashboard_selector.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/tab_home_selector.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/tab_notifications_selector.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/tab_person_selector.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/drawable/tab_text_selector.xml" value="0.3707692307692308" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/activity_bottom_navigation_bar.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/activity_home_page.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/activity_main.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/bottom_fragment_dashboard.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/bottom_fragment_home.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/bottom_fragment_notifications.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/fragment_dashboard.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/fragment_notifications.xml" value="0.36041666666666666" />
+        <entry key="..\:/testprojects/FastStarted/app/src/main/res/layout/layout_home_page_tab.xml" value="0.32803468208092484" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
