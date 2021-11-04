@@ -5,4 +5,7 @@
     <string name="tab_dashboard">看板</string>
     <string name="tab_person">个人中心</string>
     <string name="tab_notifications">设置</string>
+    <string name="tab_article_list">推荐</string>
+    <string name="tab_system_list">学习体系</string>
+    <string name="tab_useful_list">常用列表</string>
 </resources>
