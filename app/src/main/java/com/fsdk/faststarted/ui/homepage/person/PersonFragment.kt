@@ -1,4 +1,4 @@
-package com.fsdk.faststarted.ui.homepage.home
+package com.fsdk.faststarted.ui.homepage.person
 
 import android.content.Context
 import android.os.Bundle
@@ -8,25 +8,25 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
 import com.elvishew.xlog.XLog
-import com.fsdk.faststarted.databinding.BottomFragmentHomeBinding
+import com.fsdk.faststarted.databinding.BottomFragmentPersonBinding
 import com.fsdk.faststarted.ui.base.BaseFragment
 import com.fsdk.faststarted.ui.homepage.HomePageRepository
 import com.fsdk.faststarted.ui.homepage.HomePageVm
 import com.fsdk.faststarted.ui.homepage.HomePageVmFactory
 
-class HomeFragment : BaseFragment<BottomFragmentHomeBinding>() {
+class PersonFragment : BaseFragment<BottomFragmentPersonBinding>() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private lateinit var personViewModel: PersonViewModel
 
     private val activityViewModel: HomePageVm by activityViewModels {
         HomePageVmFactory(HomePageRepository())
     }
 
-    override fun BottomFragmentHomeBinding.initBinding() {
-        homeViewModel =
-            ViewModelProvider(this@HomeFragment).get(HomeViewModel::class.java)
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            fBinding.textHome.text = it
+    override fun BottomFragmentPersonBinding.initBinding() {
+        personViewModel =
+            ViewModelProvider(this@PersonFragment).get(PersonViewModel::class.java)
+        personViewModel.text.observe(viewLifecycleOwner) {
+            fBinding.textPerson.text = it
         }
     }
 

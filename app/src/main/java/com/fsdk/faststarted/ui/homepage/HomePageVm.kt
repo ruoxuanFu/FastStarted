@@ -25,6 +25,14 @@ class HomePageVm(private val repository: HomePageRepository) : ViewModel() {
             _homePageData.value = data?.data
         }
     }
+
+    private val _currentPageIndex: MutableLiveData<Int> = MutableLiveData(0)
+
+    val currentPageIndex: LiveData<Int> = _currentPageIndex
+
+    fun setCurrentPageIndex(index: Int) {
+        _currentPageIndex.value = index
+    }
 }
 
 class HomePageVmFactory(private val repository: HomePageRepository) : ViewModelProvider.Factory {

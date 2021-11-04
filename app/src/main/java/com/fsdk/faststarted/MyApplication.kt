@@ -14,7 +14,7 @@ class MyApplication : Application() {
         //log
         val config = LogConfiguration.Builder()
             .tag("fLogger")
-            .enableStackTrace(1)
+            .disableStackTrace()
             .logLevel(LogLevel.ALL)
             .disableThreadInfo()
             .disableBorder()
