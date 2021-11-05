@@ -49,6 +49,7 @@ class ResponseInterceptor : Interceptor {
                 } else {
                     //获取缓存
                     runBlocking(Dispatchers.IO) {
+                        //阻塞当前线程
                         val httpCaches = MyDatabase.daoHttpCache().getCacheByUrl("$url")
                         if (httpCaches.isNotEmpty()) {
                             httpCaches[0].cacheData?.let {
