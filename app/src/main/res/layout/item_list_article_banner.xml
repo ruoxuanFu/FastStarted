@@ -3,19 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/root"
+        android:id="@+id/bannerRoot"
+        android:background="@color/color_ff03dac5"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.fsdk.faststarted.widget.banner.Banner
-            android:id="@+id/banner"
-            android:layout_width="0dp"
-            android:layout_height="150dp"
-            android:background="@color/color_ffaaaaaa"
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/bannerImage"
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </layout>

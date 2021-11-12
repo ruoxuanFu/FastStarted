@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.flowOn
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
 
-    val countDownMax = 5
+    val countDownMax = 3
 
     override fun ActivityMainBinding.initBinding() {
         launchMain {
@@ -24,7 +24,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                 }
             }.flowOn(Dispatchers.IO)
                 .collect {
-                    if (it == 5) {
+                    if (it == countDownMax) {
                         startActivity(Intent(this@MainActivity, HomePageActivity::class.java))
                         finish()
                     } else {
